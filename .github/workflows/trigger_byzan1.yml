@@ -20,5 +20,5 @@ jobs:
         run: |
           gh api \
             --method POST \
-            repos/Byzan-Systems/017TJ0027/actions/workflows/hdfc_automation.yml/dispatches \
+            repos/Byzan-Systems/017TJ0027-1/actions/workflows/hdfc_automation1.yml/dispatches \
             -f ref="main"
